@@ -22,7 +22,7 @@ export class AccountService {
           this.setCurrentUser(user)
         }
       })
-    );
+    )
   }
   
 
