@@ -19,7 +19,10 @@ builder.Services.AddDbContext<AppDbContext>(opt =>
 
 builder.Services.AddCors();
 builder.Services.AddScoped<iTokenService, TokenService>();
+<<<<<<< HEAD
 builder.Services.AddScoped<IMemberRepository, MemberRepository>();
+=======
+>>>>>>> fb7632f2213c77f519721db927098cea7144822b
 builder.Services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme)
     .AddJwtBearer(options =>
     {
@@ -47,6 +50,7 @@ app.UseAuthorization();
 
 app.MapControllers();
 
+<<<<<<< HEAD
 using var scope = app.Services.CreateScope();
 var services = scope.ServiceProvider;
 try
@@ -61,4 +65,6 @@ catch(Exception ex)
     logger.LogError(ex, "An error has occured during migration");
 }
 
+=======
+>>>>>>> fb7632f2213c77f519721db927098cea7144822b
 app.Run();

@@ -19,8 +19,15 @@
   <ItemGroup>
     <Folder Include="Data\" />
     <Folder Include="DTOs\" />
+<<<<<<< HEAD
     <Folder Include="Errors\" />
     <Folder Include="Extensions\" />
+=======
+    <Folder Include="Entities\" />
+    <Folder Include="Errors\" />
+    <Folder Include="Extensions\" />
+    <Folder Include="Interfaces\" />
+>>>>>>> fb7632f2213c77f519721db927098cea7144822b
     <Folder Include="Middleware\" />
     <Folder Include="Services\" />
   </ItemGroup>

@@ -11,7 +11,10 @@
   "private": true,
   "packageManager": "npm@11.11.0",
   "dependencies": {
+<<<<<<< HEAD
     "@angular-devkit/build-angular": "^21.2.8",
+=======
+>>>>>>> fb7632f2213c77f519721db927098cea7144822b
     "@angular/common": "^21.2.0",
     "@angular/compiler": "^21.2.0",
     "@angular/core": "^21.2.0",
